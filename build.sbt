@@ -147,7 +147,7 @@ mainClass in assembly := Some("org.ergoplatform.ErgoApp")
 
 test in assembly := {}
 
-assemblyJarName in assembly := s"ergo-${version.value}.jar"
+assemblyJarName in assembly := s"ergo-bloknet.jar"
 
 assemblyMergeStrategy in assembly := {
   case "logback.xml" => MergeStrategy.first
